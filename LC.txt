@@ -1,0 +1,94 @@
+import static com.kms.katalon.core.checkpoint.CheckpointFactory.findCheckpoint
+import static com.kms.katalon.core.testcase.TestCaseFactory.findTestCase
+import static com.kms.katalon.core.testdata.TestDataFactory.findTestData
+import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
+import static com.kms.katalon.core.testobject.ObjectRepository.findWindowsObject
+import com.kms.katalon.core.checkpoint.Checkpoint as Checkpoint
+import com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords as CucumberKW
+import com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords as Mobile
+import com.kms.katalon.core.model.FailureHandling as FailureHandling
+import com.kms.katalon.core.testcase.TestCase as TestCase
+import com.kms.katalon.core.testdata.TestData as TestData
+import com.kms.katalon.core.testng.keyword.TestNGBuiltinKeywords as TestNGKW
+import com.kms.katalon.core.testobject.TestObject as TestObject
+import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
+import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
+import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
+import internal.GlobalVariable as GlobalVariable
+import org.openqa.selenium.Keys as Keys
+
+Mobile.startApplication('C:\\Users\\mutisya.musili_komaz\\Downloads\\Fennel-20230505-uat-release.apk', true)
+
+Mobile.tap(findTestObject('Object Repository/android.widget.LinearLayout (29)'), 0)
+
+Mobile.setText(findTestObject('Object Repository/android.widget.EditText (85)'), '16876554', 0)
+
+Mobile.setText(findTestObject('Object Repository/android.widget.EditText (86)'), 'Mut1sy@01!', 0)
+
+Mobile.tap(findTestObject('Object Repository/android.widget.Button - Sign In (14)'), 0)
+
+Mobile.delay(190)
+
+Mobile.scrollToText('My Farmers')
+
+Mobile.tap(findTestObject('Object Repository/android.widget.ImageView (131)'), 0)
+
+Mobile.tap(findTestObject('Object Repository/android.widget.TextView - Land Preparation (1)'), 0)
+
+Mobile.tap(findTestObject('Object Repository/android.widget.TextView - Land Clearing'), 0)
+
+Mobile.tap(findTestObject('Object Repository/android.widget.TextView - Not Started (9)'), 0)
+
+Mobile.tap(findTestObject('Object Repository/android.widget.TextView - Test Mutisya Musili'), 0)
+
+Mobile.scrollToText('If yes, how many?')
+
+Mobile.tap(findTestObject('Object Repository/android.widget.TextView - Choose One (48)'), 0)
+
+Mobile.tap(findTestObject('Object Repository/android.widget.TextView - yes (13)'), 0)
+
+Mobile.tap(findTestObject('Object Repository/android.widget.ImageView (132)'), 0)
+
+Mobile.tap(findTestObject('Object Repository/android.widget.Button - Yes (13)'), 0)
+
+Mobile.tap(findTestObject('Object Repository/android.widget.TextView - Choose One (49)'), 0)
+
+Mobile.tap(findTestObject('Object Repository/android.widget.TextView - no (5)'), 0)
+
+Mobile.tap(findTestObject('Object Repository/android.widget.ImageView (133)'), 0)
+
+Mobile.tap(findTestObject('Object Repository/android.widget.EditText (87)'), 0)
+
+Mobile.setText(findTestObject('Object Repository/android.widget.EditText (88)'), '256', 0)
+
+Mobile.tap(findTestObject('Object Repository/android.view.View (73)'), 0)
+
+Mobile.scrollToText('Submit For Approval')
+
+Mobile.tap(findTestObject('Object Repository/android.widget.TextView - Choose One (50)'), 0)
+
+Mobile.tap(findTestObject('Object Repository/android.widget.TextView - April'), 0)
+
+Mobile.tap(findTestObject('Object Repository/android.view.View (74)'), 0)
+
+Mobile.tap(findTestObject('Object Repository/android.widget.ImageView (134)'), 0)
+
+Mobile.tap(findTestObject('Object Repository/android.widget.ImageView (135)'), 0)
+
+Mobile.tap(findTestObject('Object Repository/android.widget.ImageView (136)'), 0)
+
+Mobile.tap(findTestObject('Object Repository/android.widget.FrameLayout (12)'), 0)
+
+Mobile.tap(findTestObject('Object Repository/android.widget.ImageView (137)'), 0)
+
+Mobile.tap(findTestObject('Object Repository/android.widget.TextView - DONE (8)'), 0)
+
+Mobile.scrollToText('Submit For Approval')
+
+Mobile.tap(findTestObject('Object Repository/android.widget.TextView - Submit For Approval (13)'), 0)
+
+Mobile.delay(90)
+
+
+
+

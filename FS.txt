@@ -1,0 +1,127 @@
+import static com.kms.katalon.core.checkpoint.CheckpointFactory.findCheckpoint
+import static com.kms.katalon.core.testcase.TestCaseFactory.findTestCase
+import static com.kms.katalon.core.testdata.TestDataFactory.findTestData
+import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
+import static com.kms.katalon.core.testobject.ObjectRepository.findWindowsObject
+import com.kms.katalon.core.checkpoint.Checkpoint as Checkpoint
+import com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords as CucumberKW
+import com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords as Mobile
+import com.kms.katalon.core.model.FailureHandling as FailureHandling
+import com.kms.katalon.core.testcase.TestCase as TestCase
+import com.kms.katalon.core.testdata.TestData as TestData
+import com.kms.katalon.core.testng.keyword.TestNGBuiltinKeywords as TestNGKW
+import com.kms.katalon.core.testobject.TestObject as TestObject
+import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
+import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
+import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
+import internal.GlobalVariable as GlobalVariable
+import org.openqa.selenium.Keys as Keys
+
+Mobile.startApplication('C:\\Users\\mutisya.musili_komaz\\Downloads\\Fennel-20230617-uat-release.apk', true)
+
+Mobile.tap(findTestObject('Object Repository/android.widget.LinearLayout (20)'), 0)
+
+Mobile.setText(findTestObject('Object Repository/android.widget.EditText (63)'), '16876554', 0)
+
+Mobile.setText(findTestObject('Object Repository/android.widget.EditText (64)'), 'Mut1sy@01!', 0)
+
+Mobile.tap(findTestObject('Object Repository/android.widget.Button - Sign In (8)'), 0)
+
+Mobile.scrollToText('My Farmers')
+
+Mobile.delay(140)
+
+Mobile.tap(findTestObject('Object Repository/android.widget.ImageView (66)'), 0)
+
+Mobile.tap(findTestObject('Object Repository/android.widget.TextView - Enrollment (1)'), 0)
+
+Mobile.tap(findTestObject('Object Repository/android.widget.TextView - Food Security (1)'), 0)
+
+Mobile.tap(findTestObject('Object Repository/android.widget.ImageView (67)'), 0)
+
+Mobile.tap(findTestObject('Object Repository/android.widget.ImageView (68)'), 0)
+
+Mobile.scrollToText('What is the current use of the land allocated to Komaza trees?')
+
+Mobile.tap(findTestObject('Object Repository/android.widget.TextView - Choose One (29)'), 0)
+
+Mobile.tap(findTestObject('Object Repository/android.widget.TextView - yes (7)'), 0)
+
+Mobile.tap(findTestObject('Object Repository/android.widget.ImageView (69)'), 0)
+
+Mobile.tap(findTestObject('Object Repository/android.widget.Button - Yes (7)'), 0)
+
+Mobile.tap(findTestObject('Object Repository/android.widget.TextView - Choose One (30)'), 0)
+
+Mobile.tap(findTestObject('Object Repository/android.widget.TextView - Not utilized or scrub or bush (1)'), 0)
+
+Mobile.tap(findTestObject('Object Repository/android.view.View (50)'), 0)
+
+Mobile.tap(findTestObject('Object Repository/android.widget.TextView - Choose One (31)'), 0)
+
+Mobile.tap(findTestObject('Object Repository/android.widget.TextView - yes (7)'), 0)
+
+Mobile.tap(findTestObject('Object Repository/android.view.View (51)'), 0)
+
+Mobile.tap(findTestObject('Object Repository/android.widget.Button - Yes (7)'), 0)
+
+Mobile.scrollToText('Does the family have any other resources apart from the land allocated to Komaza?')
+
+Mobile.tap(findTestObject('Object Repository/android.widget.TextView - Choose One (32)'), 0)
+
+Mobile.tap(findTestObject('Object Repository/android.widget.TextView - yes (7)'), 0)
+
+Mobile.tap(findTestObject('Object Repository/android.widget.ImageView (70)'), 0)
+
+Mobile.tap(findTestObject('Object Repository/android.widget.Button - Yes (7)'), 0)
+
+Mobile.tap(findTestObject('Object Repository/android.widget.TextView - Choose One (33)'), 0)
+
+Mobile.tap(findTestObject('Object Repository/android.widget.TextView - yes (7)'), 0)
+
+Mobile.tap(findTestObject('Object Repository/android.view.View (52)'), 0)
+
+Mobile.tap(findTestObject('Object Repository/android.widget.Button - Yes (7)'), 0)
+
+Mobile.tap(findTestObject('Object Repository/android.widget.TextView - Choose as many that apply (1)'), 0)
+
+Mobile.tap(findTestObject('Object Repository/android.widget.CheckedTextView - Other income (1)'), 0)
+
+Mobile.tap(findTestObject('Object Repository/android.widget.Button - SUBMIT (1)'), 0)
+
+Mobile.tap(findTestObject('Object Repository/android.widget.ImageView (71)'), 0)
+
+Mobile.scrollToText('Have you discussed the FEN Food Security talking points with the farmer and their family?')
+
+Mobile.setText(findTestObject('Object Repository/android.widget.EditText (65)'), '5', 0)
+
+Mobile.tap(findTestObject('Object Repository/android.widget.ImageView (72)'), 0)
+
+Mobile.tap(findTestObject('Object Repository/android.widget.TextView - Choose One (34)'), 0)
+
+Mobile.tap(findTestObject('Object Repository/android.widget.TextView - yes (7)'), 0)
+
+Mobile.tap(findTestObject('Object Repository/android.view.View (53)'), 0)
+
+Mobile.tap(findTestObject('Object Repository/android.widget.Button - Yes (7)'), 0)
+
+Mobile.tap(findTestObject('Object Repository/android.widget.TextView - Submit For Approval (7)'), 0)
+
+Mobile.tap(findTestObject('Object Repository/android.widget.ImageView (73)'), 0)
+
+Mobile.tap(findTestObject('Object Repository/android.widget.ImageView (74)'), 0)
+
+Mobile.tap(findTestObject('Object Repository/android.widget.TextView - Sync Data (4)'), 0)
+
+Mobile.delay(45)
+
+Mobile.tap(findTestObject('Object Repository/android.widget.ImageView (75)'), 0)
+
+Mobile.tap(findTestObject('Object Repository/android.widget.ImageView (76)'), 0)
+
+Mobile.tap(findTestObject('Object Repository/android.widget.ImageView (77)'), 0)
+
+Mobile.tap(findTestObject('Object Repository/android.widget.ImageView (78)'), 0)
+
+Mobile.closeApplication()
+

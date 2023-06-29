@@ -1,0 +1,179 @@
+import static com.kms.katalon.core.checkpoint.CheckpointFactory.findCheckpoint
+import static com.kms.katalon.core.testcase.TestCaseFactory.findTestCase
+import static com.kms.katalon.core.testdata.TestDataFactory.findTestData
+import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
+import static com.kms.katalon.core.testobject.ObjectRepository.findWindowsObject
+import com.kms.katalon.core.checkpoint.Checkpoint as Checkpoint
+import com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords as CucumberKW
+import com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords as Mobile
+import com.kms.katalon.core.model.FailureHandling as FailureHandling
+import com.kms.katalon.core.testcase.TestCase as TestCase
+import com.kms.katalon.core.testdata.TestData as TestData
+import com.kms.katalon.core.testng.keyword.TestNGBuiltinKeywords as TestNGKW
+import com.kms.katalon.core.testobject.TestObject as TestObject
+import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
+import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
+import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
+import internal.GlobalVariable as GlobalVariable
+import org.openqa.selenium.Keys as Keys
+
+Mobile.startApplication('C:\\Users\\mutisya.musili_komaz\\Downloads\\Fennel-20230617-uat-release.apk', true)
+
+Mobile.tap(findTestObject('Object Repository/android.widget.LinearLayout (12)'), 0)
+
+Mobile.setText(findTestObject('Object Repository/android.widget.EditText (41)'), '16876554', 0)
+
+Mobile.setText(findTestObject('Object Repository/android.widget.EditText (42)'), 'Mut1sy@01!', 0)
+
+Mobile.tap(findTestObject('Object Repository/android.widget.Button - Sign In (5)'), 0)
+
+Mobile.delay(180)
+
+Mobile.scrollToText('My Farmers')
+
+Mobile.tap(findTestObject('Object Repository/android.widget.TextView - New Farmer (3)'), 0)
+
+Mobile.tap(findTestObject('Object Repository/android.widget.LinearLayout (13)'), 0)
+
+Mobile.setText(findTestObject('Object Repository/android.widget.EditText (43)'), 'Test', 0)
+
+Mobile.tap(findTestObject('Object Repository/android.view.View (30)'), 0)
+
+Mobile.setText(findTestObject('Object Repository/android.widget.EditText (44)'), 'Automation', 0)
+
+Mobile.tap(findTestObject('Object Repository/android.view.View (31)'), 0)
+
+Mobile.setText(findTestObject('Object Repository/android.widget.EditText (45)'), 'Kalindi', 0)
+
+Mobile.tap(findTestObject('Object Repository/android.view.View (32)'), 0)
+
+Mobile.tap(findTestObject('Object Repository/android.widget.TextView - Choose One (20)'), 0)
+
+Mobile.tap(findTestObject('Object Repository/android.widget.TextView - 254 (3)'), 0)
+
+Mobile.tap(findTestObject('Object Repository/android.view.View (33)'), 0)
+
+Mobile.scrollToText('Farmer\'s gender')
+
+Mobile.setText(findTestObject('Object Repository/android.widget.EditText (53)'), '779431359', 0)
+
+Mobile.tap(findTestObject('Object Repository/android.view.View (46)'), 0)
+
+Mobile.tap(findTestObject('Object Repository/android.widget.TextView - Choose One (24)'), 0)
+
+Mobile.tap(findTestObject('Object Repository/android.widget.TextView - farmer (8)'), 0)
+
+Mobile.tap(findTestObject('Object Repository/android.widget.ImageView (50)'), 0)
+
+Mobile.tap(findTestObject('Object Repository/android.widget.TextView - Choose One (25)'), 0)
+
+Mobile.tap(findTestObject('Object Repository/android.widget.TextView - Male (4)'), 0)
+
+Mobile.tap(findTestObject('Object Repository/android.view.View (47)'), 0)
+
+Mobile.tap(findTestObject('Object Repository/android.widget.EditText (54)'), 0)
+
+Mobile.hideKeyboard()
+
+Mobile.setText(findTestObject('Object Repository/android.widget.EditText (55)'), 'Village', 0)
+
+Mobile.tap(findTestObject('Object Repository/android.widget.ImageView (51)'), 0)
+
+Mobile.scrollToText('Is this farmer an opinion leader')
+
+Mobile.setText(findTestObject('Object Repository/android.widget.EditText (56)'), 'Homestead', 0)
+
+Mobile.tap(findTestObject('Object Repository/android.widget.ImageView (52)'), 0)
+
+Mobile.tap(findTestObject('Object Repository/android.widget.TextView - Choose One (26)'), 0)
+
+Mobile.tap(findTestObject('Object Repository/android.widget.TextView - yes (5)'), 0)
+
+Mobile.tap(findTestObject('Object Repository/android.view.View (48)'), 0)
+
+Mobile.tap(findTestObject('Object Repository/android.widget.EditText (57)'), 0)
+
+Mobile.tap(findTestObject('Object Repository/android.widget.Button - OK (4)'), 0)
+
+Mobile.tap(findTestObject('Object Repository/android.widget.ImageView (53)'), 0)
+
+Mobile.tap(findTestObject('Object Repository/android.widget.LinearLayout (18)'), 0)
+
+Mobile.tap(findTestObject('Object Repository/android.widget.TextView - National ID (4)'), 0)
+
+Mobile.tap(findTestObject('Object Repository/android.widget.ImageView (54)'), 0)
+
+Mobile.scrollToText('What is the farmer\'s date of birth?')
+
+Mobile.setText(findTestObject('Object Repository/android.widget.EditText (50)'), '22223667', 0)
+
+Mobile.tap(findTestObject('Object Repository/android.view.View (42)'), 0)
+
+Mobile.tap(findTestObject('Object Repository/android.view.View (43)'), 0)
+
+Mobile.tap(findTestObject('Object Repository/android.widget.ImageView (63)'), 0)
+
+Mobile.tap(findTestObject('Object Repository/android.widget.FrameLayout (6)'), 0)
+
+Mobile.tap(findTestObject('Object Repository/android.widget.ImageView (44)'), 0)
+
+Mobile.tap(findTestObject('Object Repository/android.widget.TextView - DONE (3)'), 0)
+
+Mobile.scrollToText('Take a face photo of the farmer')
+
+Mobile.setText(findTestObject('Object Repository/android.widget.EditText (51)'), '1990-03-27', 0)
+
+Mobile.tap(findTestObject('Object Repository/android.widget.ImageView (45)'), 0)
+
+Mobile.tap(findTestObject('Object Repository/android.widget.ImageView (55)'), 0)
+
+Mobile.tap(findTestObject('Object Repository/android.widget.ImageView (56)'), 0)
+
+Mobile.tap(findTestObject('Object Repository/android.widget.FrameLayout (8)'), 0)
+
+Mobile.tap(findTestObject('Object Repository/android.widget.ImageView (57)'), 0)
+
+Mobile.tap(findTestObject('Object Repository/android.widget.TextView - DONE (4)'), 0)
+
+Mobile.scrollToText('SUBMIT FOR APPROVAL')
+
+Mobile.tap(findTestObject('Object Repository/android.widget.ImageView (58)'), 0)
+
+Mobile.scrollToText('SUBMIT FOR APPROVAL')
+
+Mobile.tap(findTestObject('Object Repository/android.widget.TextView - Choose One (28)'), 0)
+
+Mobile.tap(findTestObject('Object Repository/android.widget.TextView - no (4)'), 0)
+
+Mobile.tap(findTestObject('Object Repository/android.widget.ImageView (65)'), 0)
+
+Mobile.tap(findTestObject('Object Repository/android.widget.Button - Yes (6)'), 0)
+
+//Mobile.tap(findTestObject('Object Repository/android.widget.TextView - Choose Two (27)'), 0)
+
+//Mobile.tap(findTestObject('Object Repository/android.widget.TextView - no (6)'), 0)
+
+//Mobile.tap(findTestObject('Object Repository/android.widget.ImageView (59)'), 0)
+
+//Mobile.tap(findTestObject('Object Repository/android.widget.Button - Yes (5)'), 0)
+
+Mobile.tap(findTestObject('Object Repository/android.widget.TextView - SUBMIT FOR APPROVAL (5)'), 0)
+
+Mobile.delay(15)
+
+//Mobile.tap(findTestObject('Object Repository/android.widget.ImageView (60)'), 0)
+
+//Mobile.tap(findTestObject('Object Repository/android.widget.TextView - Sync Data (3)'), 0)
+
+//Mobile.delay(45)
+
+//.tap(findTestObject('Object Repository/android.widget.ImageView (61)'), 0)
+
+//Mobile.tap(findTestObject('Object Repository/android.widget.TextView - New Farmer (4)'), 0)
+
+//Mobile.tap(findTestObject('Object Repository/android.widget.TextView - Submitted (1)'), 0)
+
+//Mobile.delay(15)
+
+//Mobile.closeApplication()
+

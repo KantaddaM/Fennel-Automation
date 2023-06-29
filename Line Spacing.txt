@@ -1,0 +1,85 @@
+import static com.kms.katalon.core.checkpoint.CheckpointFactory.findCheckpoint
+import static com.kms.katalon.core.testcase.TestCaseFactory.findTestCase
+import static com.kms.katalon.core.testdata.TestDataFactory.findTestData
+import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
+import static com.kms.katalon.core.testobject.ObjectRepository.findWindowsObject
+import com.kms.katalon.core.checkpoint.Checkpoint as Checkpoint
+import com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords as CucumberKW
+import com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords as Mobile
+import com.kms.katalon.core.model.FailureHandling as FailureHandling
+import com.kms.katalon.core.testcase.TestCase as TestCase
+import com.kms.katalon.core.testdata.TestData as TestData
+import com.kms.katalon.core.testng.keyword.TestNGBuiltinKeywords as TestNGKW
+import com.kms.katalon.core.testobject.TestObject as TestObject
+import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
+import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
+import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
+import internal.GlobalVariable as GlobalVariable
+import org.openqa.selenium.Keys as Keys
+
+Mobile.startApplication('C:\\Users\\mutisya.musili_komaz\\Downloads\\Fennel-20230617-uat-release.apk', true)
+
+Mobile.tap(findTestObject('Object Repository/android.widget.LinearLayout (30)'), 0)
+
+Mobile.setText(findTestObject('Object Repository/android.widget.EditText (89)'), '16876554', 0)
+
+Mobile.setText(findTestObject('Object Repository/android.widget.EditText (90)'), 'Mut1sy@01!', 0)
+
+Mobile.tap(findTestObject('Object Repository/android.widget.Button - Sign In (15)'), 0)
+
+Mobile.delay(200)
+
+Mobile.scrollToText('My Farmers')
+
+Mobile.tap(findTestObject('Object Repository/android.widget.ImageView (142)'), 0)
+
+Mobile.tap(findTestObject('Object Repository/android.widget.TextView - Land Preparation (2)'), 0)
+
+Mobile.tap(findTestObject('Object Repository/android.widget.TextView - Line Spacing'), 0)
+
+Mobile.tap(findTestObject('Object Repository/android.widget.TextView - Not Started (6)'), 0)
+
+
+Mobile.tap(findTestObject('Object Repository/android.widget.TextView - Test Sync Eighteen (1)'), 0)
+
+Mobile.scrollToText('No of Pegs')
+
+Mobile.tap(findTestObject('Object Repository/android.widget.TextView - Choose One (51)'), 0)
+
+Mobile.tap(findTestObject('Object Repository/android.widget.TextView - yes (14)'), 0)
+
+Mobile.tap(findTestObject('Object Repository/android.widget.ImageView (143)'), 0)
+
+Mobile.tap(findTestObject('Object Repository/android.widget.Button - Yes (14)'), 0)
+
+Mobile.scrollToText('Submit For Approval')
+
+Mobile.tap(findTestObject('Object Repository/android.widget.TextView - Choose One (52)'), 0)
+
+Mobile.tap(findTestObject('Object Repository/android.widget.TextView - 256'), 0)
+
+Mobile.tap(findTestObject('Object Repository/android.widget.ImageView (144)'), 0)
+
+Mobile.tap(findTestObject('Object Repository/android.widget.Button - OK (5)'), 0)
+
+Mobile.tap(findTestObject('Object Repository/android.widget.ImageView (145)'), 0)
+
+Mobile.scrollToText('Submit For Approval')
+
+Mobile.tap(findTestObject('Object Repository/android.view.View (75)'), 0)
+
+Mobile.tap(findTestObject('Object Repository/android.widget.ImageView (146)'), 0)
+
+Mobile.tap(findTestObject('Object Repository/android.widget.ImageView (147)'), 0)
+
+Mobile.tap(findTestObject('Object Repository/android.widget.TextView - DONE (9)'), 0)
+
+Mobile.scrollToText('Submit For Approval')
+
+Mobile.tap(findTestObject('Object Repository/android.widget.TextView - Submit For Approval (14)'), 0)
+
+Mobile.delay(30)
+
+Mobile.closeApplication()
+
+
